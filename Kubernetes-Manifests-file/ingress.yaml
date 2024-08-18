@@ -10,7 +10,7 @@ metadata:
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}]'
 spec:
   rules:
-  - host: stylescrunch.com
+  - host: projectswapnil.stylescrunch.com
     http:
       paths:
       - path: /api
