@@ -11,7 +11,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: www.stylescrunch.com
+    - host: stylescrunch.com
       http:
         paths:
           - path: /api
